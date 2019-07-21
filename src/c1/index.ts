@@ -49,7 +49,6 @@ function statement(invoice, plays) {
       perf.audience
     } seats)\n`;
   }
-  let volumeCredits = totalVolumeCredits();
 
   result += `Amount owed is ${usd(totalAmount())}\n`;
   result += `You earned ${totalVolumeCredits()} credits\n`;
